@@ -32,7 +32,7 @@ var rttb = document.getElementById("rttb")
 var postnms = document.getElementById("postnms")
 
 anyComic.onclick = function() {
-  comic = ranInt(1, 2985)
+  comic = ranInt(1, finalComic)
   url = "https://www.samandfuzzy.com/" + comic
   window.open(url, "_blank")
   alert("Comic #" + comic + ": " + url)
@@ -109,7 +109,7 @@ rttb.onclick = function() {
 }
 
 postnms.onclick = function() {
-  comic = ranInt(2756, 2985)
+  comic = ranInt(2756, finalComic)
   url = "https://www.samandfuzzy.com/" + comic
   window.open(url, "_blank")
   alert("Comic #" + comic + ": " + url)
