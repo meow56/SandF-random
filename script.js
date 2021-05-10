@@ -35,82 +35,70 @@ anyComic.onclick = function() {
   comic = ranInt(1, finalComic)
   url = "https://www.samandfuzzy.com/" + comic
   window.open(url, "_blank")
-  alert("Comic #" + comic + ": " + url)
 }
 
 volumeZero.onclick = function() {
   comic = ranInt(1, 98)
   url = "https://www.samandfuzzy.com/" + comic
   window.open(url, "_blank")
-  alert("Comic #" + comic + ": " + url)
 }
 
 classic.onclick = function() {
   comic = ranInt(99, 565)
   url = "https://www.samandfuzzy.com/" + comic
   window.open(url, "_blank")
-  alert("Comic #" + comic + ": " + url)
 }
 
 noosehead.onclick = function() {
   comic = ranInt(566, 1045)
   url = "https://www.samandfuzzy.com/" + comic
   window.open(url, "_blank")
-  alert("Comic #" + comic + ": " + url)
 }
 
 fyp.onclick = function() {
   comic = ranInt(1046, 1232)
   url = "https://www.samandfuzzy.com/" + comic
   window.open(url, "_blank")
-  alert("Comic #" + comic + ": " + url)
 }
 
 avf.onclick = function() {
   comic = ranInt(1233, 1428)
   url = "https://www.samandfuzzy.com/" + comic
   window.open(url, "_blank")
-  alert("Comic #" + comic + ": " + url)
 }
 
 uti.onclick = function() {
   comic = ranInt(1429, 1606)
   url = "https://www.samandfuzzy.com/" + comic
   window.open(url, "_blank")
-  alert("Comic #" + comic + ": " + url)
 }
 
 re.onclick = function() {
   comic = ranInt(1607, 1835)
   url = "https://www.samandfuzzy.com/" + comic
   window.open(url, "_blank")
-  alert("Comic #" + comic + ": " + url)
 }
 
 mi.onclick = function() {
   comic = ranInt(1836, 2124)
   url = "https://www.samandfuzzy.com/" + comic
   window.open(url, "_blank")
-  alert("Comic #" + comic + ": " + url)
 }
 
 sye.onclick = function() {
   comic = ranInt(2125, 2227)
   url = "https://www.samandfuzzy.com/" + comic
   window.open(url, "_blank")
-  alert("Comic #" + comic + ": " + url)
 }
 
 rttb.onclick = function() {
   comic = ranInt(2227, 2757)
   url = "https://www.samandfuzzy.com/" + comic
   window.open(url, "_blank")
-  alert("Comic #" + comic + ": " + url)
 }
 
 postnms.onclick = function() {
   comic = ranInt(2756, finalComic)
   url = "https://www.samandfuzzy.com/" + comic
   window.open(url, "_blank")
-  alert("Comic #" + comic + ": " + url)
 }
