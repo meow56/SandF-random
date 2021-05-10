@@ -3,7 +3,7 @@ function ranInt(min, max) {
 }
 
 var comic
-var url = ""
+var url = "https://www.samandfuzzy.com/"
 var finalComic = 2985
 var day = new Date()
 var milliseconds = day.getTime()
@@ -22,6 +22,7 @@ var anyComic = document.getElementById("anycomic")
 var volumeZero = document.getElementById("volumezero")
 var classic = document.getElementById("classic")
 var noosehead = document.getElementById("noosehead")
+var nms = document.getElementById("nms")
 var fyp = document.getElementById("fyp")
 var avf = document.getElementById("avf")
 var uti = document.getElementById("uti")
@@ -31,74 +32,59 @@ var sye = document.getElementById("sye")
 var rttb = document.getElementById("rttb")
 var postnms = document.getElementById("postnms")
 
+function openComic(min,max) {
+  comic = ranInt(min, max)
+  window.open(url+comic, "_blank")
+}
+
 anyComic.onclick = function() {
-  comic = ranInt(1, finalComic)
-  url = "https://www.samandfuzzy.com/" + comic
-  window.open(url, "_blank")
+  openComic(1, finalComic)
 }
 
 volumeZero.onclick = function() {
-  comic = ranInt(1, 98)
-  url = "https://www.samandfuzzy.com/" + comic
-  window.open(url, "_blank")
+  openComic(1, 98)
 }
 
 classic.onclick = function() {
-  comic = ranInt(99, 565)
-  url = "https://www.samandfuzzy.com/" + comic
-  window.open(url, "_blank")
+  openComic(99, 565)
 }
 
 noosehead.onclick = function() {
-  comic = ranInt(566, 1045)
-  url = "https://www.samandfuzzy.com/" + comic
-  window.open(url, "_blank")
+  openComic(566, 1045)
+}
+
+nms.onclick = function() {
+	openComic(1046, 2757)
 }
 
 fyp.onclick = function() {
-  comic = ranInt(1046, 1232)
-  url = "https://www.samandfuzzy.com/" + comic
-  window.open(url, "_blank")
+  openComic(1046, 1232)
 }
 
 avf.onclick = function() {
-  comic = ranInt(1233, 1428)
-  url = "https://www.samandfuzzy.com/" + comic
-  window.open(url, "_blank")
+  openComic(1233, 1428)
 }
 
 uti.onclick = function() {
-  comic = ranInt(1429, 1606)
-  url = "https://www.samandfuzzy.com/" + comic
-  window.open(url, "_blank")
+  openComic(1429, 1606)
 }
 
 re.onclick = function() {
-  comic = ranInt(1607, 1835)
-  url = "https://www.samandfuzzy.com/" + comic
-  window.open(url, "_blank")
+  openComic(1607, 1835)
 }
 
 mi.onclick = function() {
-  comic = ranInt(1836, 2124)
-  url = "https://www.samandfuzzy.com/" + comic
-  window.open(url, "_blank")
+  openComic(1836, 2124)
 }
 
 sye.onclick = function() {
-  comic = ranInt(2125, 2227)
-  url = "https://www.samandfuzzy.com/" + comic
-  window.open(url, "_blank")
+  openComic(2125, 2227)
 }
 
 rttb.onclick = function() {
-  comic = ranInt(2227, 2757)
-  url = "https://www.samandfuzzy.com/" + comic
-  window.open(url, "_blank")
+  openComic(2227, 2757)
 }
 
 postnms.onclick = function() {
-  comic = ranInt(2756, finalComic)
-  url = "https://www.samandfuzzy.com/" + comic
-  window.open(url, "_blank")
+  openComic(2758, finalComic)
 }
