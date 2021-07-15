@@ -83,7 +83,7 @@ window.onload = function() {
   }
 
   rttb.onclick = function() {
-    openComic(2227, 2757)
+    openComic(2228, 2757)
   }
 
   postnms.onclick = function() {
