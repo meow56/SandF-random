@@ -18,73 +18,75 @@ for (i = 0; i < 5; i += 2) {
   }
 }
 
-var anyComic = document.getElementById("anycomic")
-var volumeZero = document.getElementById("volumezero")
-var classic = document.getElementById("classic")
-var noosehead = document.getElementById("noosehead")
-var nms = document.getElementById("nms")
-var fyp = document.getElementById("fyp")
-var avf = document.getElementById("avf")
-var uti = document.getElementById("uti")
-var re = document.getElementById("re")
-var mi = document.getElementById("mi")
-var sye = document.getElementById("sye")
-var rttb = document.getElementById("rttb")
-var postnms = document.getElementById("postnms")
+window.onload = function() {
+  var anyComic = document.getElementById("anycomic")
+  var volumeZero = document.getElementById("volumezero")
+  var classic = document.getElementById("classic")
+  var noosehead = document.getElementById("noosehead")
+  var nms = document.getElementById("nms")
+  var fyp = document.getElementById("fyp")
+  var avf = document.getElementById("avf")
+  var uti = document.getElementById("uti")
+  var re = document.getElementById("re")
+  var mi = document.getElementById("mi")
+  var sye = document.getElementById("sye")
+  var rttb = document.getElementById("rttb")
+  var postnms = document.getElementById("postnms")
 
-function openComic(min,max) {
-  comic = ranInt(min, max)
-  window.open(url+comic, "_blank")
-}
+  function openComic(min,max) {
+    comic = ranInt(min, max)
+    window.open(url+comic, "_blank")
+  }
 
-anyComic.onclick = function() {
-  openComic(1, finalComic)
-}
+  anyComic.onclick = function() {
+    openComic(1, finalComic)
+  }
 
-volumeZero.onclick = function() {
-  openComic(1, 98)
-}
+  volumeZero.onclick = function() {
+    openComic(1, 98)
+  }
 
-classic.onclick = function() {
-  openComic(99, 565)
-}
+  classic.onclick = function() {
+    openComic(99, 565)
+  }
 
-noosehead.onclick = function() {
-  openComic(566, 1045)
-}
+  noosehead.onclick = function() {
+    openComic(566, 1045)
+  }
 
-nms.onclick = function() {
-	openComic(1046, 2757)
-}
+  nms.onclick = function() {
+    openComic(1046, 2757)
+  }
 
-fyp.onclick = function() {
-  openComic(1046, 1232)
-}
+  fyp.onclick = function() {
+    openComic(1046, 1232)
+  }
 
-avf.onclick = function() {
-  openComic(1233, 1428)
-}
+  avf.onclick = function() {
+    openComic(1233, 1428)
+  }
 
-uti.onclick = function() {
-  openComic(1429, 1606)
-}
+  uti.onclick = function() {
+    openComic(1429, 1606)
+  }
 
-re.onclick = function() {
-  openComic(1607, 1835)
-}
+  re.onclick = function() {
+    openComic(1607, 1835)
+  }
 
-mi.onclick = function() {
-  openComic(1836, 2124)
-}
+  mi.onclick = function() {
+    openComic(1836, 2124)
+  }
 
-sye.onclick = function() {
-  openComic(2125, 2227)
-}
+  sye.onclick = function() {
+    openComic(2125, 2227)
+  }
 
-rttb.onclick = function() {
-  openComic(2227, 2757)
-}
+  rttb.onclick = function() {
+    openComic(2228, 2757)
+  }
 
-postnms.onclick = function() {
-  openComic(2758, finalComic)
+  postnms.onclick = function() {
+    openComic(2758, finalComic)
+  }
 }
