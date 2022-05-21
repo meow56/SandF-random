@@ -18,6 +18,12 @@ for (i = 0; i < 5; i += 2) {
   }
 }
 
+let testing = new XMLHttpRequest();
+testing.addEventListener("load", () => console.log(this.responseText));
+testing.open("GET", "https://www.samandfuzzy.com/feed");
+testing.send();
+
+
 window.onload = function() {
   var anyComic = document.getElementById("anycomic")
   var volumeZero = document.getElementById("volumezero")
